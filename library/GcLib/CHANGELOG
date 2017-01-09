@@ -1,0 +1,286 @@
+==================================================================================================================
+
+				   								GcLib - Change Log
+
+==================================================================================================================
+
+
+[+] Add component, feature, file
+[-] Remove component, feature, file
+[*] Fix component, feature, file, bug
+
+
+==================================================================================================================
+
+
+2013-08-06 - 2.5.3.0 (t4lus@global-chaos.fr)
+
+[+] View component: Add helper route {route:myRoute}
+
+
+==================================================================================================================
+
+
+2013-08-02 - 2.5.2.0 (t4lus@global-chaos.fr)
+
+[+] Router component: Add breacrumb functionalities
+[+] Router component: Add getMicrotime function (sec)
+[+] File component: Add clean pattern (default) to formatName function
+[+] Loader component : Add getMicrotime function (sec) automatically called on debug mode
+[*] Model component : Fix bug of require boolean (0 is an available value)
+[*] Model component : Can get serialize data in db (unserialize)
+[*] Validator Component : Validators (text | integer | boolean) accept array
+[*]	Database Component : Accept array for model attributes (serialize in db)
+
+
+==================================================================================================================
+
+
+2013-03-14 - 2.5.1.0 (t4lus@global-chaos.fr)
+
+[+] Database component: Add the function sql now() to insert/update
+[+] File component: Add clean pattern (default) to formatName function
+[*] Model component : Fix bug of require boolean (0 is an available value)
+
+
+==================================================================================================================
+
+
+2012-11-14 - 2.5.0.0 (t4lus@global-chaos.fr)
+
+[+] Router component: (New) component working first
+[*] Model component: Fix error formatValue call
+
+
+==================================================================================================================
+
+
+2012-09-10 - 2.4.1.0 (t4lus@global-chaos.fr)
+
+[*] Add DOCS mime type
+
+
+==================================================================================================================
+
+
+2012-09-10 - 2.4.0.0 (t4lus@global-chaos.fr)
+
+[+] Router component: New component
+[+] Controller Front component: Add dispatching history
+[*] File component: Clean syntax
+[*] File Request component: Clean syntax
+[*] Feed component: Clean syntax
+[*] Model component: Clean syntax
+[*] Request component: Clean syntax
+[*] String component: Clean syntax
+
+
+==================================================================================================================
+
+
+2012-09-04 - 2.3.7.0 (t4lus@global-chaos.fr)
+
+[*] View component: Fix escaping of set variable
+
+
+==================================================================================================================
+
+
+2012-08-29 - 2.3.6.0 (t4lus@global-chaos.fr)
+
+[*] Front controller component: Fix error action (remove suffix)
+
+
+==================================================================================================================
+
+
+2012-08-29 - 2.3.5.0 (t4lus@global-chaos.fr)
+
+[*] Front controller component: Fix error action
+
+
+==================================================================================================================
+
+
+2012-08-29 - 2.3.4.0 (t4lus@global-chaos.fr)
+
+[*] View component: Add set variables feature
+
+
+==================================================================================================================
+
+
+2012-08-29 - 2.3.3.0 (t4lus@global-chaos.fr)
+
+[*] View component: Fix set variable
+[+] Session component: Add flash message
+[+] Request component: Add get URL
+
+
+==================================================================================================================
+
+
+2012-08-28 - 2.3.2.0 (t4lus@global-chaos.fr)
+
+[*] Database component: Add interpolate
+
+
+==================================================================================================================
+
+
+2012-08-28 - 2.3.1.3 (t4lus@global-chaos.fr)
+
+[*] Add CSV mime type
+
+
+==================================================================================================================
+
+
+2012-08-23 - 2.3.1.2 (t4lus@global-chaos.fr)
+
+[*] Front controller component: Fix error controller name (Error vs error)
+
+
+==================================================================================================================
+
+
+2012-08-23 - 2.3.1.1 (t4lus@global-chaos.fr)
+
+[*] View component: Fix variable assignation
+
+
+==================================================================================================================
+
+
+2012-08-23 - 2.3.1.0 (t4lus@global-chaos.fr)
+
+[+] Request FileTypes component: Add CSV
+[*] View component: Fix variable assignation
+[*] Database component: Fix escape
+[*] Validator component: Fix conventions
+
+
+==================================================================================================================
+
+
+2012-08-21 - 2.3.0.1 (t4lus@global-chaos.fr)
+
+[*] Front Controller component: Fix output
+
+
+==================================================================================================================
+
+
+2012-08-21 - 2.3.0.0 (t4lus@global-chaos.fr)
+
+[+] Database component: Add getter for PDO resource
+[+] Database component: Add prepare queries
+[-] Database component: Interpolate query
+[-] Database component: Format value by type
+[*] Database component: Fix escape
+[*] Database component: Secure all queries with small chars
+[+] Controller component: New component (first MVC approach)
+[+] Front Controller component: New component (first MVC approach)
+[+] View component: Permit to use PHP template
+[+] View component: Add view exception
+[*] View component: Fix include pseudo feature
+[*] View component: Fix XSS possible hack
+[+] Validator component: Add HTML validator
+[+] Model component: Add prepare queries
+[*] Model component: Add prepare queries for Find all and count methods
+[*] Model component: Fix require feature
+[+] String component: Add entities conversion
+
+
+==================================================================================================================
+
+
+2012-08-17 - 2.2.2.0 (t4lus@global-chaos.fr)
+
+[+] Database component: Add options "port" and "debug"
+
+
+==================================================================================================================
+
+
+2012-08-16 - 2.2.1.0 (t4lus@global-chaos.fr)
+
+[+] Database component: Add get schema
+[*] Database component: Fix current instance (only for MySQL adapter)
+[*] Database component: Fix get table status (only for MySQL adapter)
+[*] Model component: Optimize find all
+
+
+==================================================================================================================
+
+
+2012-08-13 - 2.2.0.0 (t4lus@global-chaos.fr)
+
+[+] Add database exception
+[+] Add query interpolation
+[*] Change visibility of format value by type
+
+
+==================================================================================================================
+
+
+2012-08-13 - 2.1.0.0 (t4lus@global-chaos.fr)
+
+[+] Session component
+
+
+==================================================================================================================
+
+
+2012-08-10 - 2.0.0.4 (t4lus@global-chaos.fr)
+
+[*] File Request component: Fix bad filename
+[*] Model component: Fix hydrate mode (is_delete and date_delete)
+
+
+==================================================================================================================
+
+
+2012-08-09 - 2.0.0.3 (t4lus@global-chaos.fr)
+
+[*] Request component: Fix request get params (user now withe and black list)
+
+
+==================================================================================================================
+
+
+2012-08-07 - 2.0.0.2 (t4lus@global-chaos.fr)
+
+[*] Database component: Fix last ID return
+
+
+==================================================================================================================
+
+
+2012-08-05 - 2.0.0.1 (t4lus@global-chaos.fr)
+
+[*] Database component: Fix return of get last query
+
+
+==================================================================================================================
+
+
+2012-08-01 - 2.0.0.0 (t4lus@global-chaos.fr)
+
+[+] CHANGELOG
+[+] Database component
+[+] Export\CSV component
+[+] Export\XML component
+[+] Feed component
+[+] Model component
+[+] Loader component
+[+] Request component
+[+] Request\File component
+[+] Response component
+[+] String component
+[+] Validator component
+[+] View component
+[+] Webservice component
+
+
+==================================================================================================================
