@@ -19,7 +19,7 @@ define('PATH_CONTROLLERS',            		PATH_ROOT.'controllers'.DIRECTORY_SEPARA
 define('PATH_LIBRARY',            			PATH_ROOT.'library'.DIRECTORY_SEPARATOR);
 define('PATH_MODELS',                     	PATH_ROOT.'models'.DIRECTORY_SEPARATOR);
 define('PATH_VIEWS',                       	DIRECTORY_SEPARATOR.'views'.DIRECTORY_SEPARATOR);
-define('PATH_IMG',                          PATH_ROOT.'assets'.DIRECTORY_SEPARATOR.'img'.DIRECTORY_SEPARATOR);
+define('PATH_IMG',                          PATH_ROOT.'assets'.DIRECTORY_SEPARATOR.'images'.DIRECTORY_SEPARATOR);
 
 //-----------------------------------------------------------------------------------
 // Tables
